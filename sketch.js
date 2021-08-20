@@ -32,8 +32,9 @@ function draw() {
   background("pink");
  if(keyWentDown(UP_ARROW)) {
   
-  writeStock(foodS);
+  
   dog.addImage(doghappy);
+  dog .scale=0.16;
 
  }
 
